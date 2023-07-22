@@ -8,21 +8,21 @@
 ## 字符说明：
     
     
-$Asset:总资产，净值。也称为“客户总权益”\\\\
-Frozen\quad Funds:冻结资金\\\\
-Liquid\quad Funds:流动资金\\\\
-Margin:保证金\\\\
-capital\quad gains:资本利得，通过多头低买高卖和空头高卖低买获得 \\\\
-Idle\quad Funds:闲置资金\\\\
-Interest\quad Revenue:闲置资金产生的活期存款水平的利息\\\\
-margin_i:第i笔开仓冻结的保证金\\\\
-margin_{i^*}:目前持仓中开仓时间最早的保证金\\\\
-margin_{i^{**}}:目前持仓中开仓时间最晚的保证金\\\\
-Capital\quad Gains\quad From\quad Long:多头方向的资本利得\\\\
-Capital\quad Gains\quad From\quad Short:空头方向的资本利得\\\\
-value_{i,0}:第i笔开仓所锚定的合约在时刻0的价值\\\\
-capital\quad gains\quad from\quad long_{i,\tau}:第i笔开仓，如果是多头方向，在时刻\tau 的资本利得\\\\
-capital\quad gains\quad from\quad short_{i,\tau}:第i笔开仓，如果是空头方向，在时刻\tau 的资本利得\\\\
+$Asset:总资产，净值。也称为“客户总权益”\\
+Frozen\quad Funds:冻结资金\\
+Liquid\quad Funds:流动资金\\
+Margin:保证金\\
+capital\quad gains:资本利得，通过多头低买高卖和空头高卖低买获得 \\
+Idle\quad Funds:闲置资金\\
+Interest\quad Revenue:闲置资金产生的活期存款水平的利息\\
+margin_i:第i笔开仓冻结的保证金\\
+margin_{i^*}:目前持仓中开仓时间最早的保证金\\
+margin_{i^{**}}:目前持仓中开仓时间最晚的保证金\\
+Capital\quad Gains\quad From\quad Long:多头方向的资本利得\\
+Capital\quad Gains\quad From\quad Short:空头方向的资本利得\\
+value_{i,0}:第i笔开仓所锚定的合约在时刻0的价值\\
+capital\quad gains\quad from\quad long_{i,\tau}:第i笔开仓，如果是多头方向，在时刻\tau 的资本利得\\
+capital\quad gains\quad from\quad short_{i,\tau}:第i笔开仓，如果是空头方向，在时刻\tau 的资本利得\\
 $
 ## 会计恒等式 &nbsp; Accounting&nbsp;Equation&nbsp;in&nbsp;Future&nbsp;Trading
 
