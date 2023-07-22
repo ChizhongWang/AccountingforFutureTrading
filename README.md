@@ -6,24 +6,23 @@
 # 期货交易账户的会计恒等式
 
 ## 字符说明：
-    
-    
-$Asset:总资产，净值。也称为“客户总权益”\\
-Frozen\quad Funds:冻结资金\\
-Liquid\quad Funds:流动资金\\
-Margin:保证金\\
-capital\quad gains:资本利得，通过多头低买高卖和空头高卖低买获得 \\
-Idle\quad Funds:闲置资金\\
-Interest\quad Revenue:闲置资金产生的活期存款水平的利息\\
-margin_i:第i笔开仓冻结的保证金\\
-margin_{i^*}:目前持仓中开仓时间最早的保证金\\
-margin_{i^{**}}:目前持仓中开仓时间最晚的保证金\\
-Capital\quad Gains\quad From\quad Long:多头方向的资本利得\\
-Capital\quad Gains\quad From\quad Short:空头方向的资本利得\\
-value_{i,0}:第i笔开仓所锚定的合约在时刻0的价值\\
-capital\quad gains\quad from\quad long_{i,\tau}:第i笔开仓，如果是多头方向，在时刻\tau 的资本利得\\
-capital\quad gains\quad from\quad short_{i,\tau}:第i笔开仓，如果是空头方向，在时刻\tau 的资本利得\\
-$
+
+$Asset:总资产，净值。也称为“客户总权益”$\
+$Frozen\quad Funds:冻结资金$\
+$Liquid\quad Funds:流动资金$\
+$Margin:保证金$\
+$capital\quad gains:资本利得，通过多头低买高卖和空头高卖低买获得$ \
+$Idle\quad Funds:闲置资金$\
+$Interest\quad Revenue:闲置资金产生的活期存款水平的利息$\
+$margin_i:第i笔开仓冻结的保证金$\
+$margin_{i^*}:目前持仓中开仓时间最早的保证金$\
+$margin_{i^{**}}:目前持仓中开仓时间最晚的保证金$\
+$Capital\quad Gains\quad From\quad Long:多头方向的资本利得$\
+$Capital\quad Gains\quad From\quad Short:空头方向的资本利得$\
+$value_{i,0}:第i笔开仓所锚定的合约在时刻0的价值$\
+$capital\quad gains\quad from\quad long_{i,\tau}:第i笔开仓，如果是多头方向，在时刻\tau 的资本利得$\
+$capital\quad gains\quad from\quad short_{i,\tau}:第i笔开仓，如果是空头方向，在时刻\tau 的资本利得$
+
 ## 会计恒等式 &nbsp; Accounting&nbsp;Equation&nbsp;in&nbsp;Future&nbsp;Trading
 
 $$Frozen\quad Funds+Liquid\quad Funds = Margin+Idle\quad Funds \tag{1}$$
@@ -39,11 +38,11 @@ $$capital\quad gains\quad from\quad short_{i,\tau} = -(value_{i,\tau} -value_{i,
 $$Idle\quad Fund_i = Idle\quad Fund_{i-1}*(1+0.007/365)+Capital\quad Gains_i\tag{6}$$
 
 ### 四大科目下都有哪些账户？&nbsp; Which&nbsp; Accounts&nbsp; Fall&nbsp; under&nbsp; the &nbsp;Four&nbsp; Major&nbsp; Categories?
-$frozen\quad for\quad future\in Frozen\quad Funds\\\\
-cash\in Liquid\quad Funds\\\\
-margin_i \in Margin\\\\
-capital\quad gains\in Idle\quad Funds\\\\
-$
+$frozen\quad for\quad future\in Frozen\quad Funds$\
+$cash\in Liquid\quad Funds$\
+$margin_i \in Margin$\
+$capital\quad gains\in Idle\quad Funds$
+
 
 ## 沿用复式记账的规则&nbsp;Double-Entry Accounting
 1.会计恒等式左边的科目增加记为借Debit，减少记为贷Credit；右边的科目增加记为贷Credit，减少记为借Debit。
